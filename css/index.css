@@ -48,9 +48,9 @@ body{
     outline: none;
     box-shadow: none;
 }
-.header .navbar .navbar-toggler i{
-    color: var(--main-text-color);
-    font-size: 1.5rem;
+.header .navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/barsIcon.png);
+    transform: rotateY(180deg);
 }
 .navbar-nav .nav-link.active{
     background-color: var(--main-color);
