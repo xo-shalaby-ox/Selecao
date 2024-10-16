@@ -112,13 +112,13 @@ body{
     animation: wave2 10s linear infinite;
     opacity: 1;
     animation-delay: -5s;
-    bottom: -18px;
+    bottom: -24px;
 }
 .wave.wave3{
     animation: wave3 5s linear infinite;
     opacity: .2;
     animation-delay: -2s;
-    bottom: 5px;
+    bottom: -5px;
 }
 @keyframes wave1{
     0%{
