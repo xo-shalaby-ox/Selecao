@@ -473,7 +473,7 @@ body{
     color: var(--main-text-color);
 }
  /* ASKED SECTION  */
- .asked .asked-title span{
+.asked .asked-title span{
     letter-spacing: 1.5px;
     color: var(--sub-font-color);
 }
@@ -510,17 +510,18 @@ body{
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .team .team-cards .cards .overlay{
-    top: 55%;
-    left: 22%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: .5s;
 }
-.team .team-cards .cards .caption p{
-    font-size: 13px;
-}
 .team .team-cards .cards:hover .overlay{
     opacity: 1;
-    transform: translateY(20px);
+    top: 70%;
+}
+.team .team-cards .cards .caption p{
+    font-size: 13px;
 }
 .team .team-cards .cards .overlay ul li{
     width: 40px;
